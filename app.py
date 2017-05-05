@@ -102,7 +102,6 @@ def makeWebhookResult(data):
      "followupEvent": {
         "name": "WG_TOEVOEGEN"
     }
-}
 
 
 if __name__ == '__main__':
