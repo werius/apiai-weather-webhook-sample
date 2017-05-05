@@ -99,9 +99,11 @@ def makeWebhookResult(data):
     }
     '''
     return {
-     "followupEvent": {
-        "name": "WG_TOEVOEGEN"
-    }
+   "followupEvent": {
+      "name": "WG_TOEVOEGEN",
+      "data": {  }
+   }
+}
 
 
 if __name__ == '__main__':
